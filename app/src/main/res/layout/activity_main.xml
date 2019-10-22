@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="107dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            app:srcCompat="@mipmap/satu"
+            tools:srcCompat="@mipmap/satu" />
+
+        <TextView
+            android:id="@+id/click1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="50dp"
+            android:text="Ir Soekarno"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="110dp"
+            app:srcCompat="@mipmap/dua"
+            tools:srcCompat="@mipmap/dua" />
+
+        <TextView
+            android:id="@+id/click2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="150dp"
+            android:text="Soeharto"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="220dp"
+            app:srcCompat="@mipmap/tiga"
+            tools:srcCompat="@mipmap/tiga" />
+
+        <TextView
+            android:id="@+id/click3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="250dp"
+            android:text="Ir Bj Habbie"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="330dp"
+            app:srcCompat="@mipmap/empat"
+            tools:srcCompat="@mipmap/empat" />
+
+        <TextView
+            android:id="@+id/click4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="350dp"
+            android:text="Gus Dur"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="440dp"
+            app:srcCompat="@mipmap/lima"
+            tools:srcCompat="@mipmap/lima" />
+
+        <TextView
+            android:id="@+id/click5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="470dp"
+            android:text="Megawati"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="550dp"
+            app:srcCompat="@mipmap/enam"
+            tools:srcCompat="@mipmap/enam" />
+
+        <TextView
+            android:id="@+id/click6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="580dp"
+            android:text="SBY"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="660dp"
+            app:srcCompat="@mipmap/enam"
+            tools:srcCompat="@mipmap/tuju" />
+
+        <TextView
+            android:id="@+id/click7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="680dp"
+            android:text="Jokowi"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+</ScrollView>
